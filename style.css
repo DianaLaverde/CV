@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    border: 1px solid red;
+    background-color:#fdfac9;
+}
+.container{
+    width: 65%;
+    height: 800px;
+    margin: 0 auto;
+    border: 1px solid blue;
+    padding: 50px 35px;
+}
+.name{
+    font-size: 32px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    color: #333;
+    margin-bottom: 0;
+}
+.description{
+    font-size: 16px;
+    font-weight: 200;
+    color: #333;
+    text-align: center;
+}
+.line-solid{
+    width: 100%;
+    height: 2px;
+    background-color: #333;
+    display: block;
+    margin: 15px 0;
+}
+
+.container-subtitle{
+    display: flex;
+    align-items: center;
+    justify-content:start;
+}
+
+ .container-subtitle p{
+       margin-left: 10px;
+
+}
+
+.experience{
+    font-size: 18px;
+    font-weight: 300;
+    color: #333;
+
+}
+.section-studies{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container-studies{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container-studies p{
+    margin-left:20px ;
+    font-size: 14px;
+    font-weight: 200;
+}
+.circle{
+    width: 100px;
+    height: 50px;
+    border-radius: 50%;
+    background: #7dabc5;
+    display: inline-block;
+}
+
+div p {
+    font-size: 16px;
+    font-weight:200; 
+    color: #333;
+}
+
+
+.skills{
+    font-size: 20px;
+    font-weight: 300;
+    color: #333;
+
+}
+
+    
