@@ -1,0 +1,14 @@
+@media (max-width: 768px) {
+  .container {
+    width: 85%;
+  }
+  .likes div i {
+    font-size: 30px;
+  }
+  .section-studies{
+      flex-direction: column;
+  }
+  .container-studies{
+      margin-bottom: 10px;
+  }
+}
