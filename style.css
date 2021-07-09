@@ -7,7 +7,7 @@
 body {
   font-family: "Poppins", sans-serif;
   width: 100%;
-  /*border: 1px solid red;*/
+ /* border: 1px solid red;*/
   background-color: #fdfac9;
 }
 .container {
@@ -83,7 +83,7 @@ body {
 
 .pencil-icon {
   font-size: 40px;
-  transform: rotate(315deg);
+  transform: rotate(315deg)!important;
 }
 .pencil-icon-color-html {
   color: #ea4c29;
@@ -93,6 +93,10 @@ body {
 }
 .pencil-icon-color-js {
   color: #fcbe52;
+}
+
+.separate-pencil{
+  margin-left: 20px;
 }
 
 .box {

@@ -11,4 +11,28 @@
   .container-studies{
       margin-bottom: 10px;
   }
+
+  .information{
+    flex-direction: column;
+  }
+  .information--container-items{
+    width: 100%;
+  }
+  .line-dotted-right {
+      border: none;
+  }
+  .container-subtitle{
+    padding-bottom: 7px; 
+  }
+  
+}
+@media (max-width: 520px) {
+  .pencil-icon{
+    font-size: 30px;
+  }
+  .container{
+    padding: 35px 15px;
+  }
+
+
 }
