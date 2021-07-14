@@ -63,7 +63,8 @@ body {
   justify-content: space-between;
 }
 .container-studies p {
-  margin-left: 20px;
+  margin-top: 15px;
+  margin-left: 15px;
   font-size: 14px;
   font-weight: 200;
 }
@@ -73,6 +74,7 @@ body {
   border-radius: 50%;
   background: #7dabc5;
   display: flex;
+  margin-left: 10px;
   align-items: center;
   justify-content: center;
 }
@@ -80,39 +82,23 @@ body {
 .circle i {
   color: white;
 }
-.fa-html5{
-  color: #ea4c29;
-  font-size: 35px;
-  margin-left: 10px;
-}
-.fa-css3-alt{
-  color: #85b8e3;
-  font-size: 35px;
-  margin-left: 10px;
-}
-.fa-js{
-  color: #fcbe52;
-  font-size: 35px;
-  margin-left: 10px;
-}
-.fa-bootstrap{
-  color: purple;
-  font-size: 35px;
-  margin-left: 10px;
-}
-.fa-mobile-alt{
-  color:#333 ;
-  font-size: 35px;
-  margin-left: 10px;
-}
-.languages{
-  display: flex;
-  align-items: center;
+.courses{
+  width: 100%;
+  display:flex;
+  align-items:center;
   justify-content: center;
-
 }
-.laguages >div{
-  margin-left: 30px;
+.courses >div{
+  margin-left: 20px;
+}
+.learning img{
+  width: 50px;
+  height: 50px;
+  margin-left: 20px;
+}
+.learning img p{
+  font-weight: 200;
+  font-size: 16px;
 }
 
 
@@ -219,7 +205,8 @@ footer {
   padding-left: 10px;
 }
 .github,
-.linkedin {
+.linkedin
+.button-call {
   cursor: pointer;
 }
 .information--container-items {
@@ -243,6 +230,6 @@ footer {
   bottom: 20px;
 }
 .button-call i{
-  color: white;
+  color:white;
 
 }

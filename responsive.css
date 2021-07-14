@@ -25,6 +25,11 @@
   .container-subtitle{
     padding-bottom: 7px; 
   }
+  .courses{
+    width: 100%;x
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
   
 }
 @media (max-width: 520px) {
